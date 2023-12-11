@@ -2,7 +2,7 @@
   
 - 👀 I’m interested in being a programmer
   
-- 🌱 I’m currently learning React.js, Node.js
+- 🌱 I’m currently learning Docker and AWS, Azure Cloud hosting
 
 <!---
 sekisaii/sekisaii is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
