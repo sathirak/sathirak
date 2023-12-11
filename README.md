@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @sekisaii
+- 👋 Hi, I’m @sekisaii AKA sathi
   
 - 🍤 Programmer based in SL
   
