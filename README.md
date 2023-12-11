@@ -1,8 +1,10 @@
 - 👋 Hi, I’m @sekisaii
   
-- 👀 I’m interested in being a programmer
+- 🍤 Programmer based in SL
   
 - 🌱 I’m currently learning Docker and AWS, Azure Cloud hosting
+
+- 🍙 Currently designing the Keiko Webapp
 
 <!---
 sekisaii/sekisaii is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
