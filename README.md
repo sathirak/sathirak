@@ -4,25 +4,25 @@
 # ${\textsf{\color[RGB]{35,47,62}Hi}}$ ${\textsf{\color[RGB]{35,47,62}there!}}$ ${\textsf{\color[RGB]{35,47,62}I'm}}$ $\color[RGB]{225,22,92}Sekisaii$ ${\textsf{\color[RGB]{35,47,62}and}}$ ${\textsf{\color[RGB]{35,47,62}I}}$ ${\textsf{\color[RGB]{35,47,62}am}}$ ${\textsf{\color[RGB]{35,47,62}a}}$
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&pause=1000&color=E1165C&vCenter=true&random=false&width=435&lines=Full-Stack+Developer;UX/UI+Developer;Open-Source+Enthusiast;Systems+Developer;YouTuber;)](https://git.io/typing-svg)
 
-```bash
+```diff
 
 $ npm run sekisaii
 
 $ sekisaii=(
 
-  location: "Colombo, LK"
+!  location: "Colombo, LK"
 
   interests: (
 
-    "Web app development"
-    "Systems Engineering"
-    "Cloud Service Architecting"
-    "UX/UI Designing"
-    "Database Architecting"
+-    "Web app development"
+-    "Systems Engineering"
+-    "Cloud Service Architecting"
+-    "UX/UI Designing"
+-    "Database Architecting"
 
   )
 
-  current_project: "Founding a startup and building programming skills"
+!  current_project: "Founding a startup and building programming skills"
 
 )
 
