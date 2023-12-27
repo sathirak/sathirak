@@ -1,19 +1,31 @@
 <br>
 
 # ${\textsf{\color[RGB]{35,47,62}Hi}}$ ${\textsf{\color[RGB]{35,47,62}there!}}$ ${\textsf{\color[RGB]{35,47,62}I'm}}$ $\color[RGB]{225,22,92}Sekisaii$ ${\textsf{\color[RGB]{35,47,62}and}}$ ${\textsf{\color[RGB]{35,47,62}I}}$ ${\textsf{\color[RGB]{35,47,62}am}}$ ${\textsf{\color[RGB]{35,47,62}a}}$
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&pause=1000&color=E1165C&vCenter=true&random=false&width=435&lines=Full-Stack+Developer;UX/UI+Developer;Open-Source+Enthusiast;CSS+Lover;YouTuber;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&pause=500&color=E1165C&vCenter=true&random=false&width=435&lines=Full-Stack+Developer;UX/UI+Developer;Open-Source+Enthusiast;CSS+Lover;YouTuber;)](https://git.io/typing-svg)
 
-```diff
-#$ @sekisaii ➜ /sekisaii (main) $ cat sekisaii.json | grep "start"
-#$ npm start sekisaii.ts
+```bash
+
+$ npm run sekisaii
 
 $ sekisaii=(
-$   location=("Colombo, LK")
-$   intrested_in=("Web app development" "Systems Engineering"  "Cloud Service Architecting" "UX/UI Designing" "Database Architecting")
-$   working_on=("Founding a startup and building my skills as a programmer")
-$   )
-$ )
-$ 
+
+  location: "Colombo, LK"
+
+  interests: (
+
+    "Web app development"
+    "Systems Engineering"
+    "Cloud Service Architecting"
+    "UX/UI Designing"
+    "Database Architecting"
+
+  )
+
+  current_project: "Founding a startup and building programming skills"
+
+)
+
+
 ```
 <br>
 <h2 align="center">
