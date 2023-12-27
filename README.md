@@ -35,7 +35,7 @@ $ sekisaii=(
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,express,php,c,graphql,postgres,mysql,mongodb,js,git,bash,docker,aws,cloudflare,css,figma&theme=light&perline=6" />
+    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,js,express,php,c,css,graphql,postgres,mysql,mongodb,js,git,bash,docker,aws,cloudflare,&theme=light&perline=6" />
   </a>
 </p>
 
@@ -46,7 +46,7 @@ $ sekisaii=(
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,express,php,c,graphql,postgres,mysql,mongodb,js,git,bash,cloudflare,octave,tailwind,css,figma,ps,ae,au,ai&theme=light&perline=11" />
+    <img src="https://skills.thijs.gg/icons?i=vscode,vite,sqlite,powershell,wordpress,octave,tailwind,materialui,html,figma,ps,ae,au,ai&theme=light&perline=11" />
   </a>
 </p>
 
