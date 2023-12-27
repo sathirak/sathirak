@@ -46,7 +46,7 @@ $ sekisaii=(
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=vscode,vite,sqlite,powershell,wordpress,octave,tailwind,materialui,html,figma,ps,ae,au,ai&theme=light&perline=11" />
+    <img src="https://skills.thijs.gg/icons?i=figma,vscode,vite,sqlite,powershell,wordpress,octave,tailwind,materialui,html,ps,ae,au,ai&theme=light&perline=7" />
   </a>
 </p>
 
