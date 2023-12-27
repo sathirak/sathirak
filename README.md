@@ -2,26 +2,17 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&pause=1000&color=E1165C&vCenter=true&random=false&width=435&lines=Full-Stack+Developer;UX/UI+Developer;Open-Source+Enthusiast;CSS+Lover;YouTuber;)](https://git.io/typing-svg)
 
 ```diff
+<br>
+<br>
+#$ @sekisaii ➜ /sekisaii (main) $ cat sekisaii.json | grep "start"
+#$ npm start sekisaii.ts
 
-$ @sekisaii ➜ /workspaces/keiko (main) $ cat sekisaii.json | grep "start"
-$ npm start
-
-$ sekisaii=(
+-$ sekisaii=(
 $   location=("Colombo, LK")
-$   intrested_in=("IoT" "robotics" "pentesting" "security research techniques" 
+!$   intrested_in=("IoT" "robotics" "pentesting" "security research techniques" 
 $                   "embedded systems engineering")
 $   working_on=("Building a solid career in the cyber-security field here in my country...")
-$   learning=("Front-End" "web dev" "node.js" "DevOps with Azure")
-$   ask_me_about=("Emerging trends" "android ROM development" "Darknet Diaries" "robotics" 
-$               "tech" "cyber-ops" "crypto" "music")
-$   hobbies=(
-$     major=(
-$       indoor=("$Dancing" "$cooking" "$watching_animes" "$gaming")
-$       outdoor=("$Traveling" "$playing_soccer")
-$     )
-$     funFact=(
-$       secret=("$I_freaking_love_music" "$dogs")
-$     )
++$   learning=("Front-End" "web dev" "node.js" "DevOps with Azure")
 $   )
 $ )
 $ 
@@ -32,7 +23,7 @@ $
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,express,php,c,graphql,postgres,mysql,mongodb,js,git,bash,docker,aws,gcp,cloudflare,css,figma&theme=light&perline=8" />
+    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,express,php,c,graphql,postgres,mysql,mongodb,js,git,bash,docker,aws,cloudflare,css,figma&theme=light&perline=8" />
   </a>
 </p>
 
