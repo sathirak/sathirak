@@ -4,28 +4,21 @@
 # ${\textsf{\color[RGB]{35,47,62}Hi}}$ ${\textsf{\color[RGB]{35,47,62}there!}}$ ${\textsf{\color[RGB]{35,47,62}I'm}}$ $\color[RGB]{225,22,92}Sekisaii$ ${\textsf{\color[RGB]{35,47,62}and}}$ ${\textsf{\color[RGB]{35,47,62}I}}$ ${\textsf{\color[RGB]{35,47,62}am}}$ ${\textsf{\color[RGB]{35,47,62}a}}$
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Quicksand&weight=600&pause=1000&color=E1165C&vCenter=true&random=false&width=435&lines=Full-Stack+Developer;UX/UI+Developer;Open-Source+Enthusiast;Systems+Developer;YouTuber;)](https://git.io/typing-svg)
 
-```diff
+```bash
 
-$ npm run sekisaii
+$ git sekisaii status
 
-$ sekisaii=(
+#location: "Colombo, LK"
+#Created by *sekisaii*
+#You have no open pull requests
 
-!  location: "Colombo, LK"
+Interests
+✓ Webapp / Webpage development [mostly-interested]
+✓ Systems Engineering & Database Architecting
+✓ UX/UI Designing: Wireframing -- Research -- Prototyping
+✓ Devops Engineering.
 
-  interests: (
-
--    "Web app development"
--    "Systems Engineering"
--    "Cloud Service Architecting"
--    "UX/UI Designing"
--    "Database Architecting"
-
-  )
-
-!  current_project: "Founding a startup and building programming skills"
-
-)
-
+$ git current project ==> "Founding a tiny startup and building programming skills"
 
 ```
 <br>
@@ -62,4 +55,4 @@ $ sekisaii=(
 </p>
 <br>
 <br>
-<p align="center"> <img src="https://github.com/CrazyChickenDev/CrazyChickenDev/blob/master/assets/source.gif" /> </p>
+<p align="center"> <img src="https://camo.githubusercontent.com/16f93ae6e1e6ec4e43289b79099f62e62361e750ad5d9754395bb8aa4b9081fc/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f38333648694a633770677a7938694e58436e2f67697068792e676966" /> </p>
