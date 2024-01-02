@@ -10,7 +10,6 @@ $ git sekisaii status
 
 #location: "Colombo, LK"
 #Created by *sekisaii*
-#You have no open pull requests
 
 Interests
 ✓ Webapp / Webpage development [mostly-interested]
