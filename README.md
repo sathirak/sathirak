@@ -32,7 +32,7 @@ $ git current project ==> "Founding a tiny startup and building programming skil
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,js,express,php,c,css,graphql,postgres,mysql,mongodb,js,git,bash,docker,aws,cloudflare,&theme=light&perline=6" />
+    <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,js,express,php,c,css,graphql,postgres,mysql,mongodb,sentry,git,bash,docker,aws,cloudflare,&theme=light&perline=6" />
   </a>
 </p>
 
