@@ -1,3 +1,5 @@
+
+
 <br>
 <br>
 
@@ -60,6 +62,7 @@ $ git current project ==> "Founding a tiny startup and building programming skil
 <br>
 <br>
 
+
 <div align="center">
-  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=compact" alt="sekisaii" />
+  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=normal&langs_count=3&custom_title=most_used_languages" alt="sekisaii" />
 </div>
