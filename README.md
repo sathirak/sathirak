@@ -59,3 +59,7 @@ $ git current project ==> "Founding a tiny startup and building programming skil
 </p>
 <br>
 <br>
+
+<div align="center">
+  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=compact" alt="sekisaii" />
+</div>
