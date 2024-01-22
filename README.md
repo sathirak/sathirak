@@ -54,7 +54,7 @@ $ git current project ==> "Founding a tiny startup and building programming skil
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=workers,docker,aws,gcp&theme=light&perline=8" />
+    <img src="https://skills.thijs.gg/icons?i=workers,docker,aws,gcp,terraform&theme=light&perline=10" />
   </a>
 </p>
 <br>
