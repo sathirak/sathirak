@@ -58,13 +58,6 @@ $ git current project ==> "Founding a tiny startup and building programming skil
  ${\textsf{\color[RGB]{35,47,62}Currently}}$ ${\textsf{\color[RGB]{225,22,92}Learning}}$
 </h2>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=workers,docker,aws,gcp,terraform,cs,net&theme=light&perline=10" />
-  </a>
-</p>
-<br>
-<br>
 
 
 
