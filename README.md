@@ -53,10 +53,6 @@ $ git current project ==> "Founding a tiny startup and building programming skil
   </a>
 </p>
 
-<br>
-<h2 align="center">
- ${\textsf{\color[RGB]{35,47,62}Currently}}$ ${\textsf{\color[RGB]{225,22,92}Learning}}$
-</h2>
 
 
 
