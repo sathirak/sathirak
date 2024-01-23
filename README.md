@@ -19,6 +19,7 @@ Interests
 ✓ UX/UI Designing: Wireframing -- Research -- Prototyping
 ✓ Devops Engineering.
 
+$ git goals ==> "Hone my skills to become a devops engineer"
 $ git current project ==> "Founding a tiny startup and building programming skills"
 
 ```
