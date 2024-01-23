@@ -38,7 +38,10 @@ $ git current project ==> "Founding a tiny startup and building programming skil
     <img src="https://skills.thijs.gg/icons?i=react,nodejs,ts,js,express,php,c,css,graphql,postgres,mysql,mongodb,sentry,git,bash,docker,aws,cloudflare,&theme=light&perline=6" />
   </a>
 </p>
-
+<br>
+<div align="center">
+  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=normal&langs_count=3&custom_title=most_used_languages" alt="sekisaii" />
+</div>
 <br>
 <h2 align="center">
  ${\textsf{\color[RGB]{225,22,92}Skill}}$ ${\textsf{\color[RGB]{35,47,62}Set}}$
@@ -57,13 +60,11 @@ $ git current project ==> "Founding a tiny startup and building programming skil
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skills.thijs.gg/icons?i=workers,docker,aws,gcp,terraform&theme=light&perline=10" />
+    <img src="https://skills.thijs.gg/icons?i=workers,docker,aws,gcp,terraform,cs,net&theme=light&perline=10" />
   </a>
 </p>
 <br>
 <br>
 
 
-<div align="center">
-  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=normal&langs_count=3&custom_title=most_used_languages" alt="sekisaii" />
-</div>
+
