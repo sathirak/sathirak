@@ -43,17 +43,23 @@ $ git current project ==> "Founding a tiny startup and building programming skil
   <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=compact" alt="sekisaii" />
 </div>
 <br>
+<br>
+<br>
 <h2 align="center">
  ${\textsf{\color[RGB]{225,22,92}Skill}}$ ${\textsf{\color[RGB]{35,47,62}Set}}$
 </h2>
-
+<br>
+<br>
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skills.thijs.gg/icons?i=figma,vscode,vite,sqlite,powershell,wordpress,octave,tailwind,materialui,html,ps,ae,au,ai&theme=light&perline=7" />
   </a>
 </p>
-
+<br>
+<br>
+<div align="center">
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sekisaii&" alt="sekisaii" />
+</div>
 
 
 
