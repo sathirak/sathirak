@@ -40,7 +40,7 @@ $ git current project ==> "Founding a tiny startup and building programming skil
 </p>
 <br>
 <div align="center">
-  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=normal&langs_count=3&custom_title=most_used_languages" alt="sekisaii" />
+  <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sekisaii&show_icons=true&locale=en&layout=compact" alt="sekisaii" />
 </div>
 <br>
 <h2 align="center">
