@@ -53,6 +53,7 @@ $ git current project ==> "Founding a tiny startup and building programming skil
   </a>
 </p>
 
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sekisaii&" alt="sekisaii" />
 
 
 
