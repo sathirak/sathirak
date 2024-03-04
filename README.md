@@ -9,9 +9,9 @@ I'm an engineer with a passion for developing robust and resilient systems and a
 <div align="center">
 <p align="center" >
 	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/<github_user>/<repository>/output-3d-contrib/night.svg" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/<github_user>/<repository>/output-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/<github_user>/<repository>/output-3d-contrib/day.svg" />
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/sathirak/sathirak/output-3d-contrib/night.svg" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sathirak/sathirak/output-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/sathirak/sathirak/output-3d-contrib/day.svg" />
 	</picture>
 </p>
 </div>
