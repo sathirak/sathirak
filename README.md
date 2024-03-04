@@ -7,5 +7,11 @@ I'm an engineer with a passion for developing robust and resilient systems and a
 <br> $\color[RGB]{255,207,112}▧$  Learning a lot day by day
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" width="700" />
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/<github_user>/<repository>/output-3d-contrib/night.svg" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/<github_user>/<repository>/output-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/<github_user>/<repository>/output-3d-contrib/day.svg" />
+	</picture>
+</p>
 </div>
