@@ -9,9 +9,9 @@
         "radarColor": "#47a042",
         "growingAnimation": true,
         "contribColors": [
+            "#efefef",
             "#ffee4a",
             "#ffc501",
-            "#d5a400",
             "#fe9600",
             "#03001c"
         ]
