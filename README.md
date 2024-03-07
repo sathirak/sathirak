@@ -3,8 +3,8 @@
 I'm an engineer with a passion for developing robust and resilient systems and architecting scalable infrastructure.
 
 <br> $\color[RGB]{255,207,112}▧$  Experienced & skilled in ***NodeJS***, ***Spring Boot***, ***ReactJS***, ***Rust***, ***Containerization*** & ***AWS***
-<br> $\color[RGB]{255,207,112}▧$  Interested in creating ***Cloud*** and ***Crawler*** software including tools
-<br> $\color[RGB]{255,207,112}▧$  Learning a lot day by day
+<br> $\color[RGB]{255,207,112}▧$  Interested in creating **Cloud**, **Crawlers** and **AI**
+<br> $\color[RGB]{255,207,112}▧$  Learning a lot of stuff day by day
 
 <div align="center">
 <p align="center" >
