@@ -1,17 +1,20 @@
-### $\color[RGB]{255,183,41} Hi$ $\color[RGB]{255,183,41} there$ _!_
+<img src="https://img.shields.io/badge/Hello%20There%20!-339933?style=for-the-badge&color=02303A" height="35"/>
 
 I'm an engineer with a passion for developing robust and resilient systems and architecting scalable infrastructure.
 
-<br> $\color[RGB]{255,207,112}▧$  Experienced & skilled in ***NodeJS***, ***Spring Boot***, ***ReactJS***, ***Rust***, ***Containerization*** & ***AWS***
-<br> $\color[RGB]{255,207,112}▧$  Interested in creating **Cloud**, **Crawlers** and **AI**
-<br> $\color[RGB]{255,207,112}▧$  Learning a lot of stuff day by day
+Experienced & skilled in ***NodeJS***, ***Spring Boot***, ***ReactJS***, ***Python***, ***Containerization*** & ***AWS***<br/>
 
+Ask me about ***Clouds*** & ***Crawlers*** & ***Systems***<br/>
+
+<!--
+Ho ho hoo looks like you found my readme
 <div align="center">
-<p align="center" >
-	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/sathirak/sathirak/output-3d-contrib/night.svg" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sathirak/sathirak/output-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/sathirak/sathirak/output-3d-contrib/day.svg" />
-	</picture>
-</p>
+<img src="https://img.shields.io/badge/Spring_Boot-white?style=for-the-badge&logo=spring-boot&logoColor=white&color=02303A" height="35"/>
+<img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&color=02303A" height="35"/>
+<img src="https://img.shields.io/badge/React-02303A?style=for-the-badge&logo=react&logoColor=white&color=02303A" height="35"/>
+<img src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white&color=02303A" height="35"/>
+<img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python&logoColor=white&color=02303A" height="35"/>
+<img src="https://img.shields.io/badge/Docker-02303A?style=for-the-badge&logo=docker&logoColor=white&color=02303A" height="35"/>
 </div>
+
+ -->
