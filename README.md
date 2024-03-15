@@ -2,11 +2,12 @@
 
 I'm an engineer with a passion for developing robust and resilient systems and architecting scalable infrastructure.
 
-Experienced & skilled in ***NodeJS***, ***Spring Boot***, ***ReactJS***, ***Python***, ***Containerization*** & ***AWS***<br/>
+Experienced & skilled in ***NodeJS***, ***ReactJS***, ***Spring Boot***, ***Containerization*** & ***AWS***<br/>
 
 Highly interested in ***Clouds*** & ***Crawlers*** & ***Systems***<br/>
 
 <!--
+
 Ho ho hoo looks like you found my readme
 <div align="center">
 <img src="https://img.shields.io/badge/Spring_Boot-white?style=for-the-badge&logo=spring-boot&logoColor=white&color=02303A" height="35"/>
