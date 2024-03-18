@@ -2,7 +2,7 @@
 
 I'm an engineer with a passion for developing robust and resilient systems and architecting scalable infrastructure.
 
-Experienced & skilled in ***NodeJS***, ***ReactJS***, ***Spring Boot***, ***Containerization*** & ***AWS***<br/>
+Experienced & skilled in ***NodeJS***, ***ReactJS***, ***NextJS***, ***Spring Boot***, ***Docker*** & ***AWS***<br/>
 
 Highly interested in ***Clouds*** & ***Crawlers*** & ***Systems***<br/>
 
