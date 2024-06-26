@@ -2,4 +2,4 @@ I'm an engineer with a passion for developing robust and resilient systems and a
 
 Thoroughly experienced & skilled in,
 
-[![My Skills](https://skillicons.dev/icons?i=go,ts,c,nextjs&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=go,ts,c&theme=dark)](https://skillicons.dev)
