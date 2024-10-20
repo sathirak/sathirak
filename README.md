@@ -9,7 +9,7 @@
 
   <br/><br/>
   
-  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,c&theme=dark)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,c,deno&theme=dark)](https://skillicons.dev)
   
 </h5>
 
