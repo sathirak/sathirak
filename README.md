@@ -1,17 +1,20 @@
 <h4 align="center">I'm an engineer with a passion for developing robust and resilient systems.</h4>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/366adfcf-91f8-4729-a9ef-57ede310a4e2" height=200 >
+  
+  <img src="https://github.com/user-attachments/assets/eb1b8eba-ce8d-4f95-a6ba-d31591b7f3c8" height=200 >
+  
 </div>
 
-<h5 align="center">
-  Thoroughly experienced & skilled in,
-
+<div align="center">
+  <br/>
+  <code>Thoroughly experienced & skilled in,</code>
   <br/><br/>
   
-  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,deno&theme=dark)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,deno&theme=dark)](https://skillicons.dev) <image src="https://github.com/user-attachments/assets/b126cbc9-2dcb-4fa3-9d81-12b63ee1a61d" width=50 height=50>
+
   
-</h5>
+</div>
 
 
 
