@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  <img src="https://github.com/user-attachments/assets/eb1b8eba-ce8d-4f95-a6ba-d31591b7f3c8" height=200 >
+  <img src="https://images.weserv.nl/?url=github.com/user-attachments/assets/eb1b8eba-ce8d-4f95-a6ba-d31591b7f3c8?v=4&h=300&w=300&output=gif&fit=cover&mask=circle&maxage=7d&n=-1" height=200 >
   
 </div>
 
