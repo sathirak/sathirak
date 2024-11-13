@@ -11,7 +11,7 @@
   <code>Thoroughly experienced & skilled in,</code>
   <br/><br/>
   
-  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,deno&theme=dark)](https://skillicons.dev) <image src="https://github.com/user-attachments/assets/b126cbc9-2dcb-4fa3-9d81-12b63ee1a61d" width=50 height=50>
+  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,deno,elixir&theme=dark)](https://skillicons.dev)
 
   
 </div>
