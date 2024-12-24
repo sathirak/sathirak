@@ -16,7 +16,7 @@
   [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,deno,elixir&theme=dark)](https://skillicons.dev)
 
 
-[My Blog!](https://www.sathirak.me/)
+[Checkout My Blog!](https://www.sathirak.me/)
   
 </div>
 
