@@ -9,8 +9,6 @@
 </div>
 
 <div align="center">
-  <br/>
-  <code>Thoroughly experienced & skilled in,</code>
   <br/><br/>
   
 ![Skills](https://skills-icons.vercel.app/api/icons?i=aws,ts,go,docker,kubernetes,argocd)
