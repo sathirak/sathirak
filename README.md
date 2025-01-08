@@ -13,7 +13,7 @@
   <code>Thoroughly experienced & skilled in,</code>
   <br/><br/>
   
-  [![My Skills](https://skillicons.dev/icons?i=go,docker,ts,kubernetes,deno,elixir&theme=dark)](https://skillicons.dev)
+![Skills](https://skills-icons.vercel.app/api/icons?i=aws,ts,go,docker,kubernetes,argocd)
 
 
 [Checkout My Blog!](https://www.sathirak.me/)
