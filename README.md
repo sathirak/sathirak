@@ -11,7 +11,7 @@
 <div align="center">
   <br/><br/>
   
-![Skills](https://skills-icons.vercel.app/api/icons?i=aws,ts,go,docker,kubernetes,argocd)
+![Skills](https://skills-icons.vercel.app/api/icons?i=aws,ts,go,docker,kubernetes,argocd,python)
 
 
 [Checkout My Blog!](https://www.sathirak.me/)
