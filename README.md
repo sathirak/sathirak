@@ -13,8 +13,9 @@
   
 ![Skills](https://skills-icons.vercel.app/api/icons?i=aws,ts,go,docker,kubernetes,argocd,python)
 
+<br/>
 
-[Checkout My Blog!](https://www.sathirak.me/)
+[<kbd> <br> Checkout My Grotto 🍵! <br> </kbd>](https://www.sathirak.me/)
   
 </div>
 
