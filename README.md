@@ -11,7 +11,7 @@
 <div align="center">
   <br/><br/>
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,azure,ts,go,docker,kubernetes,argocd,python&theme=light)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,azure,ts,go,docker,kubernetes,argocd,python&perline=4&theme=light)
 
 <br/>
 
