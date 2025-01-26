@@ -15,7 +15,7 @@
 
 <br/>
 
-[<kbd> <br> Checkout My Grotto 🍵! <br> </kbd>](https://www.sathirak.me/)
+[<kbd> <br> Checkout My Grotto 🍵! <br> </kbd>](https://sathirak.me/)
   
 </div>
 
