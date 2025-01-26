@@ -10,8 +10,8 @@
 
 <div align="center">
   <br/><br/>
-  
-![Skills](https://skills-icons.vercel.app/api/icons?i=aws,ts,go,docker,kubernetes,argocd,python)
+
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,azure,ts,go,docker,kubernetes,argocd,python&theme=light)
 
 <br/>
 
