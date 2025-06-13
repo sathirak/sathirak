@@ -22,4 +22,10 @@
 <h3 align="center">While you're at it, why not see how crypto's doing?</h3>
 
 <!-- start-daily-update -->
+<div align="center">
+  <!-- Updated on Fri Jun 13 10:10:31 UTC 2025 -->
+  <kbd>BTC</kbd> ${{ env.BTC }} ${{ env.BTC_ARROW }}  <kbd>ETH</kbd> ${{ env.ETH }} ${{ env.ETH_ARROW }}
+  <br>
+  <kbd>SOL</kbd> ${{ env.SOL }} ${{ env.SOL_ARROW }}  <kbd>DOGE</kbd> ${{ env.DOGE }} ${{ env.DOGE_ARROW }}
+</div>
 <!-- end-daily-update -->
