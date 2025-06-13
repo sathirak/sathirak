@@ -37,16 +37,10 @@ jobs:
           ${START_MARKER}
           <div align="center">
             $updated_on
-            <table>
-              <tr>
-                <td><kbd>BTC</kbd>: \$${BTC}</td>
-                <td><kbd>ETH</kbd>: \$${ETH}</td>
-              </tr>
-              <tr>
-                <td><kbd>SOL</kbd>: \$${SOL}</td>
-                <td><kbd>DOGE</kbd>: \$${DOGE}</td>
-              </tr>
-            </table>
+            <br>
+            <kbd>BTC</kbd>: \$${BTC}  <kbd>ETH</kbd>: \$${ETH}
+            <br>
+            <kbd>SOL</kbd>: \$${SOL}  <kbd>DOGE</kbd>: \$${DOGE}
           </div>
           ${END_MARKER}
           EOF

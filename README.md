@@ -24,15 +24,8 @@
 <!-- start-daily-update -->
 <div align="center">
   <!-- Updated on Fri Jun 13 10:10:31 UTC 2025 -->
-  <table>
-    <tr>
-      <td><kbd>BTC</kbd>: ${{ env.BTC }}</td>
-      <td><kbd>ETH</kbd>: ${{ env.ETH }}</td>
-    </tr>
-    <tr>
-      <td><kbd>SOL</kbd>: ${{ env.SOL }}</td>
-      <td><kbd>DOGE</kbd>: ${{ env.DOGE }}</td>
-    </tr>
-  </table>
+  <kbd>BTC</kbd>: ${{ env.BTC }}  <kbd>ETH</kbd>: ${{ env.ETH }}
+  <br>
+  <kbd>SOL</kbd>: ${{ env.SOL }}  <kbd>DOGE</kbd>: ${{ env.DOGE }}
 </div>
 <!-- end-daily-update -->
