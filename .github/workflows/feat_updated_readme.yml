@@ -20,46 +20,38 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Get previous prices (if any)
-        id: prev
+      - name: Get weather for cities
+        id: weather
         run: |
-          if [ -f prices_prev.json ]; then
-            cp prices_prev.json prices_prev.json.bak
-          else
-            echo '{"bitcoin":{"usd":0},"ethereum":{"usd":0},"solana":{"usd":0},"dogecoin":{"usd":0}}' > prices_prev.json.bak
-          fi
-
-      - name: Get BTC, ETH, SOL, DOGE price from CoinGecko
-        id: prices
-        run: |
-          curl -s "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,dogecoin&vs_currencies=usd" > prices.json
-          echo "BTC=$(jq '.bitcoin.usd' prices.json)" >> $GITHUB_ENV
-          echo "ETH=$(jq '.ethereum.usd' prices.json)" >> $GITHUB_ENV
-          echo "SOL=$(jq '.solana.usd' prices.json)" >> $GITHUB_ENV
-          echo "DOGE=$(jq '.dogecoin.usd' prices.json)" >> $GITHUB_ENV
-
-      - name: Calculate price arrows
-        id: arrows
-        run: |
-          get_arrow() {
-            curr=$1
-            prev=$2
-            if (( $(echo "$curr > $prev" | bc -l) )); then
-              echo "🟢⬆️"
-            elif (( $(echo "$curr < $prev" | bc -l) )); then
-              echo "🔴⬇️"
-            else
-              echo "⏺️"
-            fi
+          # List of cities: Colombo, London, New York, Tokyo
+          # Use wttr.in for simple weather info
+          get_weather() {
+            city="$1"
+            # Get temperature in Celsius and weather condition
+            curl -s "https://wttr.in/${city}?format=%t|%C" | tr -d '\n'
           }
-          BTC_PREV=$(jq '.bitcoin.usd' prices_prev.json.bak)
-          ETH_PREV=$(jq '.ethereum.usd' prices_prev.json.bak)
-          SOL_PREV=$(jq '.solana.usd' prices_prev.json.bak)
-          DOGE_PREV=$(jq '.dogecoin.usd' prices_prev.json.bak)
-          echo "BTC_ARROW=$(get_arrow $BTC $BTC_PREV)" >> $GITHUB_ENV
-          echo "ETH_ARROW=$(get_arrow $ETH $ETH_PREV)" >> $GITHUB_ENV
-          echo "SOL_ARROW=$(get_arrow $SOL $SOL_PREV)" >> $GITHUB_ENV
-          echo "DOGE_ARROW=$(get_arrow $DOGE $DOGE_PREV)" >> $GITHUB_ENV
+          get_emoji() {
+            cond="$1"
+            case "$cond" in
+              *rain*|*Rain*) echo "🌧️";;
+              *cloud*|*Cloud*) echo "☁️";;
+              *sun*|*Sun*|*clear*|*Clear*) echo "☀️";;
+              *snow*|*Snow*) echo "❄️";;
+              *storm*|*Storm*) echo "⛈️";;
+              *fog*|*Fog*) echo "🌫️";;
+              *) echo "🌡️";;
+            esac
+          }
+          for CITY in "Colombo" "London" "New York" "Tokyo"; do
+            RAW=$(get_weather "$CITY")
+            TEMP=$(echo "$RAW" | cut -d'|' -f1)
+            COND=$(echo "$RAW" | cut -d'|' -f2)
+            EMOJI=$(get_emoji "$COND")
+            VAR=$(echo "$CITY" | tr '[:lower:]' '[:upper:]' | tr -d ' ')
+            echo "${VAR}_TEMP=${TEMP}" >> $GITHUB_ENV
+            echo "${VAR}_COND=${COND}" >> $GITHUB_ENV
+            echo "${VAR}_EMOJI=${EMOJI}" >> $GITHUB_ENV
+          done
 
       - name: Set daily update block
         id: setblock
@@ -70,15 +62,12 @@ jobs:
           <div align="center">
             $updated_on
             <br>
-            <kbd>BTC</kbd>  \$${BTC} ${BTC_ARROW}  <kbd>ETH</kbd>  \$${ETH} ${ETH_ARROW}
+            <kbd>Colombo</kbd> \${COLOMBO_TEMP} \${COLOMBO_EMOJI}  <kbd>London</kbd> \${LONDON_TEMP} \${LONDON_EMOJI}
             <br>
-            <kbd>SOL</kbd>  \$${SOL} ${SOL_ARROW}  <kbd>DOGE</kbd>  \$${DOGE} ${DOGE_ARROW}
+            <kbd>New York</kbd> \${NEWYORK_TEMP} \${NEWYORK_EMOJI}  <kbd>Tokyo</kbd> \${TOKYO_TEMP} \${TOKYO_EMOJI}
           </div>
           ${END_MARKER}
           EOF
-
-      - name: Save current prices for next run
-        run: cp prices.json prices_prev.json
 
       - name: Update README.md
         run: |
