@@ -1,13 +1,5 @@
 <h4 align="center">I'm an engineer with a passion for developing robust and resilient systems.</h4>
 
-
-
-<div align="center">
-  
-  <img src="https://images.weserv.nl/?url=github.com/user-attachments/assets/eb1b8eba-ce8d-4f95-a6ba-d31591b7f3c8?v=4&h=300&w=300&output=gif&fit=cover&mask=circle&maxage=7d&n=-1" height=200 >
-  
-</div>
-
 <div align="center">
   <br/><br/>
 
@@ -19,8 +11,10 @@
   
 </div>
 
-<h3 align="center">While you're at it, check the weather?</h3>
+<br/>
+<br/>
 
+<h3 align="center">Check the weather?</h3>
 <!-- start-daily-update -->
 <div align="center">
   <!-- Updated on Fri Jun 13 10:58:16 UTC 2025 -->
