@@ -38,9 +38,9 @@ jobs:
           <div align="center">
             $updated_on
             <br>
-            <kbd>BTC</kbd>: \$${BTC}  <kbd>ETH</kbd>: \$${ETH}
+            <kbd>BTC</kbd>  \$${BTC}  <kbd>ETH</kbd>  \$${ETH}
             <br>
-            <kbd>SOL</kbd>: \$${SOL}  <kbd>DOGE</kbd>: \$${DOGE}
+            <kbd>SOL</kbd>  \$${SOL}  <kbd>DOGE</kbd>  \$${DOGE}
           </div>
           ${END_MARKER}
           EOF
