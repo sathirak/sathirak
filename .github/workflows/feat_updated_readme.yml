@@ -44,10 +44,11 @@ jobs:
           }
           for CITY in "Colombo" "London" "New York" "Tokyo"; do
             RAW=$(get_weather "$CITY")
-            TEMP=$(echo "$RAW" | cut -d'|' -f1)
-            COND=$(echo "$RAW" | cut -d'|' -f2)
+            TEMP=$(echo "$RAW" | cut -d'|' -f1 | xargs)
+            COND=$(echo "$RAW" | cut -d'|' -f2 | xargs)
+            # fallback if TEMP is empty
+            if [ -z "$TEMP" ]; then TEMP="N/A"; fi
             EMOJI=$(get_emoji "$COND")
-            # Replace spaces with underscores for env var names
             VAR=$(echo "$CITY" | tr '[:lower:]' '[:upper:]' | tr ' ' '_')
             echo "${VAR}_TEMP=${TEMP}" >> $GITHUB_ENV
             echo "${VAR}_COND=${COND}" >> $GITHUB_ENV
