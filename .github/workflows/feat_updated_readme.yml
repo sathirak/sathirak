@@ -1,0 +1,37 @@
+name: 'feat: updated readme'
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: 'feat: updated readme'
+        run: |
+          start_marker="<!-- start-daily-update -->"
+          end_marker="<!-- end-daily-update -->"
+          new_content="$start_marker\n<div align=\"center\">\n\n<!-- Updated on $(date) -->\n<h2>New Data</h2>\n<p>This section is updated daily.</p>\n\n</div>\n$end_marker"
+          awk -v start="$start_marker" -v end="$end_marker" -v new="$new_content" '
+            BEGIN {found=0}
+            {if ($0 ~ start) {print new; found=1}
+             if (!found) print $0
+             if ($0 ~ end) {found=0; next}
+            }' README.md > README.tmp && mv README.tmp README.md
+
+      - name: "feat: updated readme"
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "	feat: updated readme" || echo "No changes to commit" 
+
+      - name: "feat: updated readme"
+        run: |
+          git push origin HEAD:main
