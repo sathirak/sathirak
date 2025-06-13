@@ -18,12 +18,16 @@ jobs:
           start_marker="<!-- start-daily-update -->"
           end_marker="<!-- end-daily-update -->"
           new_content="$start_marker\n<div align=\"center\">\n\n<!-- Updated on $(date) -->\n<h2>New Data</h2>\n<p>This section is updated daily.</p>\n\n</div>\n$end_marker"
-          awk -v start="$start_marker" -v end="$end_marker" -v new="$new_content" '
-            BEGIN {found=0}
-            {if ($0 ~ start) {print new; found=1}
-             if (!found) print $0
-             if ($0 ~ end) {found=0; next}
-            }' README.md > README.tmp && mv README.tmp README.md
+          if grep -q "$start_marker" README.md && grep -q "$end_marker" README.md; then
+            awk -v start="$start_marker" -v end="$end_marker" -v new="$new_content" '
+              BEGIN {inblock=0}
+              $0 ~ start {print new; inblock=1; next}
+              $0 ~ end {inblock=0; next}
+              !inblock {print}
+            ' README.md > README.tmp && mv README.tmp README.md
+          else
+            printf "\n%s\n" "$new_content" >> README.md
+          fi
 
       - name: "feat: updated readme"
         run: |
