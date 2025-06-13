@@ -39,16 +39,12 @@ jobs:
             $updated_on
             <table>
               <tr>
-                <th>BTC</th>
-                <th>ETH</th>
-                <th>SOL</th>
-                <th>DOGE</th>
+                <td><kbd>BTC</kbd>: \$${BTC}</td>
+                <td><kbd>ETH</kbd>: \$${ETH}</td>
               </tr>
               <tr>
-                <td>\$${BTC}</td>
-                <td>\$${ETH}</td>
-                <td>\$${SOL}</td>
-                <td>\$${DOGE}</td>
+                <td><kbd>SOL</kbd>: \$${SOL}</td>
+                <td><kbd>DOGE</kbd>: \$${DOGE}</td>
               </tr>
             </table>
           </div>

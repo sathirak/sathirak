@@ -26,16 +26,12 @@
   <!-- Updated on Fri Jun 13 10:10:31 UTC 2025 -->
   <table>
     <tr>
-      <th>BTC</th>
-      <th>ETH</th>
-      <th>SOL</th>
-      <th>DOGE</th>
+      <td><kbd>BTC</kbd>: ${{ env.BTC }}</td>
+      <td><kbd>ETH</kbd>: ${{ env.ETH }}</td>
     </tr>
     <tr>
-      <td>${{ env.BTC }}</td>
-      <td>${{ env.ETH }}</td>
-      <td>${{ env.SOL }}</td>
-      <td>${{ env.DOGE }}</td>
+      <td><kbd>SOL</kbd>: ${{ env.SOL }}</td>
+      <td><kbd>DOGE</kbd>: ${{ env.DOGE }}</td>
     </tr>
   </table>
 </div>
