@@ -23,7 +23,8 @@
 
 <!-- start-daily-update -->
 <div align="center">
-  <!-- Updated on Fri Jun 13 10:10:31 UTC 2025 -->
-  <kbd>Colombo</kbd> ${{ env.COLOMBO_TEMP }} ${{ env.COLOMBO_EMOJI }}  <kbd>London</kbd> ${{ env.LONDON_TEMP }} ${{ env.LONDON_EMOJI }}  <kbd>New York</kbd> ${{ env.NEWYORK_TEMP }} ${{ env.NEWYORK_EMOJI }}  <kbd>Tokyo</kbd> ${{ env.TOKYO_TEMP }} ${{ env.TOKYO_EMOJI }}
+  <!-- Updated on Fri Jun 13 10:58:16 UTC 2025 -->
+  <br>
+  <kbd>Colombo</kbd> +31°C ☁️  <kbd>London</kbd> +22°C ☀️  <kbd>New York</kbd>  🌡️  <kbd>Tokyo</kbd> +24°C ☁️
 </div>
 <!-- end-daily-update -->
