@@ -4,25 +4,38 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
+    env:
+      START_MARKER: "<!-- start-daily-update -->"
+      END_MARKER: "<!-- end-daily-update -->"
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: 'feat: updated readme'
+      - name: Set daily update block
+        id: setblock
         run: |
-          start_marker="<!-- start-daily-update -->"
-          end_marker="<!-- end-daily-update -->"
-          new_content="$start_marker\n<div align=\"center\">\n\n<!-- Updated on $(date) -->\n<h2>New Data</h2>\n<p>This section is updated daily.</p>\n\n</div>\n$end_marker"
-          if grep -q "$start_marker" README.md && grep -q "$end_marker" README.md; then
-            awk -v start="$start_marker" -v end="$end_marker" -v new="$new_content" '
+          updated_on="<!-- Updated on $(date -u) -->"
+          cat <<EOF > block.txt
+          ${START_MARKER}
+          <div align="center">
+            $updated_on
+            <h2>New Data</h2>
+            <p>This section is updated daily.</p>
+          </div>
+          ${END_MARKER}
+          EOF
+
+      - name: Update README.md
+        run: |
+          new_content="$(cat block.txt)"
+          if grep -q "$START_MARKER" README.md && grep -q "$END_MARKER" README.md; then
+            awk -v start="$START_MARKER" -v end="$END_MARKER" -v new="$new_content" '
               BEGIN {inblock=0}
               $0 ~ start {print new; inblock=1; next}
               $0 ~ end {inblock=0; next}
