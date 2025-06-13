@@ -21,14 +21,30 @@
 
 <!-- start-daily-update -->
 <div align="center">
-  <!-- Updated on Fri Jun 13 10:22:04 UTC 2025 -->
+  <!-- Updated on Fri Jun 13 10:10:31 UTC 2025 -->
   <h2>New Data</h2>
   <p>This section is updated daily.</p>
-  <ul>
-    <li>BTC: $104731</li>
-    <li>ETH: $2517.71</li>
-    <li>SOL: $144.22</li>
-    <li>DOGE: $0.173853</li>
-  </ul>
+  <table>
+    <tr>
+      <th>Asset</th>
+      <th>Price (USD)</th>
+    </tr>
+    <tr>
+      <td>BTC</td>
+      <td>${{ env.BTC }}</td>
+    </tr>
+    <tr>
+      <td>ETH</td>
+      <td>${{ env.ETH }}</td>
+    </tr>
+    <tr>
+      <td>SOL</td>
+      <td>${{ env.SOL }}</td>
+    </tr>
+    <tr>
+      <td>DOGE</td>
+      <td>${{ env.DOGE }}</td>
+    </tr>
+  </table>
 </div>
 <!-- end-daily-update -->
