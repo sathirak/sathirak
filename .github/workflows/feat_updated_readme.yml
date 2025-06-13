@@ -47,7 +47,8 @@ jobs:
             TEMP=$(echo "$RAW" | cut -d'|' -f1)
             COND=$(echo "$RAW" | cut -d'|' -f2)
             EMOJI=$(get_emoji "$COND")
-            VAR=$(echo "$CITY" | tr '[:lower:]' '[:upper:]' | tr -d ' ')
+            # Replace spaces with underscores for env var names
+            VAR=$(echo "$CITY" | tr '[:lower:]' '[:upper:]' | tr ' ' '_')
             echo "${VAR}_TEMP=${TEMP}" >> $GITHUB_ENV
             echo "${VAR}_COND=${COND}" >> $GITHUB_ENV
             echo "${VAR}_EMOJI=${EMOJI}" >> $GITHUB_ENV
@@ -62,7 +63,7 @@ jobs:
           <div align="center">
             $updated_on
             <br>
-            <kbd>Colombo</kbd> ${COLOMBO_TEMP} ${COLOMBO_EMOJI}  <kbd>London</kbd> ${LONDON_TEMP} ${LONDON_EMOJI}  <kbd>New York</kbd> ${NEWYORK_TEMP} ${NEWYORK_EMOJI}  <kbd>Tokyo</kbd> ${TOKYO_TEMP} ${TOKYO_EMOJI}
+            <kbd>Colombo</kbd> ${COLOMBO_TEMP} ${COLOMBO_EMOJI}  <kbd>London</kbd> ${LONDON_TEMP} ${LONDON_EMOJI}  <kbd>New York</kbd> ${NEW_YORK_TEMP} ${NEW_YORK_EMOJI}  <kbd>Tokyo</kbd> ${TOKYO_TEMP} ${TOKYO_EMOJI}
           </div>
           ${END_MARKER}
           EOF
