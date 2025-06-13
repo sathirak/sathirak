@@ -20,6 +20,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Get BTC, ETH, SOL, DOGE price from CoinGecko
+        id: prices
+        run: |
+          curl -s "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,dogecoin&vs_currencies=usd" > prices.json
+          echo "BTC=$(jq '.bitcoin.usd' prices.json)" >> $GITHUB_ENV
+          echo "ETH=$(jq '.ethereum.usd' prices.json)" >> $GITHUB_ENV
+          echo "SOL=$(jq '.solana.usd' prices.json)" >> $GITHUB_ENV
+          echo "DOGE=$(jq '.dogecoin.usd' prices.json)" >> $GITHUB_ENV
+
       - name: Set daily update block
         id: setblock
         run: |
@@ -30,6 +39,12 @@ jobs:
             $updated_on
             <h2>New Data</h2>
             <p>This section is updated daily.</p>
+            <ul>
+              <li>BTC: \$${BTC}</li>
+              <li>ETH: \$${ETH}</li>
+              <li>SOL: \$${SOL}</li>
+              <li>DOGE: \$${DOGE}</li>
+            </ul>
           </div>
           ${END_MARKER}
           EOF

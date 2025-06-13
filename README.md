@@ -24,5 +24,11 @@
   <!-- Updated on Fri Jun 13 10:10:31 UTC 2025 -->
   <h2>New Data</h2>
   <p>This section is updated daily.</p>
+  <ul>
+    <li>BTC: ${{ env.BTC }}</li>
+    <li>ETH: ${{ env.ETH }}</li>
+    <li>SOL: ${{ env.SOL }}</li>
+    <li>DOGE: ${{ env.DOGE }}</li>
+  </ul>
 </div>
 <!-- end-daily-update -->
