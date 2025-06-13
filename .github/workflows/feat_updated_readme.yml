@@ -62,9 +62,9 @@ jobs:
           <div align="center">
             $updated_on
             <br>
-            <kbd>Colombo</kbd> \${COLOMBO_TEMP} \${COLOMBO_EMOJI}  <kbd>London</kbd> \${LONDON_TEMP} \${LONDON_EMOJI}
+            <kbd>Colombo</kbd> ${COLOMBO_TEMP} ${COLOMBO_EMOJI}  <kbd>London</kbd> ${LONDON_TEMP} ${LONDON_EMOJI}
             <br>
-            <kbd>New York</kbd> \${NEWYORK_TEMP} \${NEWYORK_EMOJI}  <kbd>Tokyo</kbd> \${TOKYO_TEMP} \${TOKYO_EMOJI}
+            <kbd>New York</kbd> ${NEWYORK_TEMP} ${NEWYORK_EMOJI}  <kbd>Tokyo</kbd> ${TOKYO_TEMP} ${TOKYO_EMOJI}
           </div>
           ${END_MARKER}
           EOF
