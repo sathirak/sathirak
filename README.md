@@ -17,8 +17,8 @@
 <h3 align="center">Check the weather?</h3>
 <!-- start-daily-update -->
 <div align="center">
-  <!-- Updated on Sun Jun 15 01:59:33 UTC 2025 -->
+  <!-- Updated on Mon Jun 16 01:53:52 UTC 2025 -->
   <br>
-  <kbd>Colombo</kbd> +26°C 🌧️  <kbd>London</kbd> +14°C ☀️  <kbd>New York</kbd> N/A 🌡️  <kbd>Tokyo</kbd> +24°C 🌧️
+  <kbd>Colombo</kbd> +81°F 🌧️  <kbd>London</kbd> +58°F ☀️  <kbd>New York</kbd> N/A 🌡️  <kbd>Tokyo</kbd> +74°F ☁️
 </div>
 <!-- end-daily-update -->
