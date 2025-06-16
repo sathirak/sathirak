@@ -23,12 +23,10 @@ jobs:
       - name: Get weather for cities
         id: weather
         run: |
-          # List of cities: Colombo, London, New York, Tokyo
-          # Use wttr.in for simple weather info
           get_weather() {
             city="$1"
-            # Get temperature in Celsius and weather condition
-            curl -s "https://wttr.in/${city}?format=%t|%C" | tr -d '\n'
+            encoded_city=$(jq -rn --arg x "$city" '$x|@uri')
+            curl -s "https://wttr.in/${encoded_city}?format=%t|%C" | tr -d '\n'
           }
           get_emoji() {
             cond="$1"
@@ -42,11 +40,12 @@ jobs:
               *) echo "🌡️";;
             esac
           }
-          for CITY in "Colombo" "London" "New York" "Tokyo"; do
+          for CITY in \
+            "Colombo" "London" "New York" "Tokyo" "Paris" "Berlin" "Sydney" "Toronto" \
+            "San Francisco" "Singapore" "Dubai" "Moscow" "Mumbai" "Seoul" "Beijing"; do
             RAW=$(get_weather "$CITY")
             TEMP=$(echo "$RAW" | cut -d'|' -f1 | xargs)
             COND=$(echo "$RAW" | cut -d'|' -f2 | xargs)
-            # fallback if TEMP is empty
             if [ -z "$TEMP" ]; then TEMP="N/A"; fi
             EMOJI=$(get_emoji "$COND")
             VAR=$(echo "$CITY" | tr '[:lower:]' '[:upper:]' | tr ' ' '_')
@@ -62,9 +61,26 @@ jobs:
           cat <<EOF > block.txt
           ${START_MARKER}
           <div align="center">
-            $updated_on
-            <br>
-            <kbd>Colombo</kbd> ${COLOMBO_TEMP} ${COLOMBO_EMOJI}  <kbd>London</kbd> ${LONDON_TEMP} ${LONDON_EMOJI}  <kbd>New York</kbd> ${NEW_YORK_TEMP} ${NEW_YORK_EMOJI}  <kbd>Tokyo</kbd> ${TOKYO_TEMP} ${TOKYO_EMOJI}
+            $updated_on<br><br>
+          
+            <kbd>Colombo</kbd> ${COLOMBO_TEMP} ${COLOMBO_EMOJI} &nbsp; 
+            <kbd>London</kbd> ${LONDON_TEMP} ${LONDON_EMOJI} &nbsp; 
+            <kbd>New York</kbd> ${NEW_YORK_TEMP} ${NEW_YORK_EMOJI} &nbsp; 
+            <kbd>Tokyo</kbd> ${TOKYO_TEMP} ${TOKYO_EMOJI} <br>
+          
+            <kbd>Paris</kbd> ${PARIS_TEMP} ${PARIS_EMOJI} &nbsp; 
+            <kbd>Berlin</kbd> ${BERLIN_TEMP} ${BERLIN_EMOJI} &nbsp; 
+            <kbd>Sydney</kbd> ${SYDNEY_TEMP} ${SYDNEY_EMOJI} &nbsp; 
+            <kbd>Toronto</kbd> ${TORONTO_TEMP} ${TORONTO_EMOJI} <br>
+          
+            <kbd>San Francisco</kbd> ${SAN_FRANCISCO_TEMP} ${SAN_FRANCISCO_EMOJI} &nbsp; 
+            <kbd>Singapore</kbd> ${SINGAPORE_TEMP} ${SINGAPORE_EMOJI} &nbsp; 
+            <kbd>Dubai</kbd> ${DUBAI_TEMP} ${DUBAI_EMOJI} &nbsp; 
+            <kbd>Moscow</kbd> ${MOSCOW_TEMP} ${MOSCOW_EMOJI} <br>
+          
+            <kbd>Mumbai</kbd> ${MUMBAI_TEMP} ${MUMBAI_EMOJI} &nbsp; 
+            <kbd>Seoul</kbd> ${SEOUL_TEMP} ${SEOUL_EMOJI} &nbsp; 
+            <kbd>Beijing</kbd> ${BEIJING_TEMP} ${BEIJING_EMOJI}
           </div>
           ${END_MARKER}
           EOF
