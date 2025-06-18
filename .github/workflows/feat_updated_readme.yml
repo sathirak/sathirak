@@ -20,9 +20,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Get weather for cities
+      - name: Get weather for AWS regions
         id: weather
         run: |
+          declare -A REGION_CITY_MAP=(
+            [us-east-1]="Washington DC"
+            [us-west-1]="San Francisco"
+            [eu-west-1]="Dublin"
+            [ap-southeast-1]="Singapore"
+            [ap-northeast-1]="Tokyo"
+            [eu-central-1]="Frankfurt"
+            [sa-east-1]="Sao Paulo"
+            [ca-central-1]="Toronto"
+            [ap-south-1]="Mumbai"
+            [ap-northeast-2]="Seoul"
+            [me-south-1]="Dubai"
+            [af-south-1]="Cape Town"
+            [eu-north-1]="Stockholm"
+            [ap-east-1]="Hong Kong"
+            [eu-west-3]="Paris"
+            [ap-south-2]="Colombo" 
+          )
           get_weather() {
             city="$1"
             encoded_city=$(jq -rn --arg x "$city" '$x|@uri')
@@ -40,15 +58,14 @@ jobs:
               *) echo "🌡️";;
             esac
           }
-          for CITY in \
-            "Colombo" "London" "New York" "Tokyo" "Paris" "Berlin" "Sydney" "Toronto" \
-            "San Francisco" "Singapore" "Dubai" "Moscow" "Mumbai" "Seoul" "Beijing"; do
+          for REGION in "${!REGION_CITY_MAP[@]}"; do
+            CITY="${REGION_CITY_MAP[$REGION]}"
             RAW=$(get_weather "$CITY")
             TEMP=$(echo "$RAW" | cut -d'|' -f1 | xargs)
             COND=$(echo "$RAW" | cut -d'|' -f2 | xargs)
             if [ -z "$TEMP" ]; then TEMP="N/A"; fi
             EMOJI=$(get_emoji "$COND")
-            VAR=$(echo "$CITY" | tr '[:lower:]' '[:upper:]' | tr ' ' '_')
+            VAR=$(echo "$REGION" | tr '[:lower:]' '[:upper:]' | tr '-' '_')
             echo "${VAR}_TEMP=${TEMP}" >> $GITHUB_ENV
             echo "${VAR}_COND=${COND}" >> $GITHUB_ENV
             echo "${VAR}_EMOJI=${EMOJI}" >> $GITHUB_ENV
@@ -63,24 +80,25 @@ jobs:
           <div align="center">
             $updated_on<br><br>
           
-            <kbd>Colombo</kbd> ${COLOMBO_TEMP} ${COLOMBO_EMOJI} &nbsp; 
-            <kbd>London</kbd> ${LONDON_TEMP} ${LONDON_EMOJI} &nbsp; 
-            <kbd>New York</kbd> ${NEW_YORK_TEMP} ${NEW_YORK_EMOJI} &nbsp; 
-            <kbd>Tokyo</kbd> ${TOKYO_TEMP} ${TOKYO_EMOJI} <br>
+            <kbd>us-east-1</kbd> ${US_EAST_1_TEMP} ${US_EAST_1_EMOJI} &nbsp; 
+            <kbd>us-west-1</kbd> ${US_WEST_1_TEMP} ${US_WEST_1_EMOJI} &nbsp; 
+            <kbd>eu-west-1</kbd> ${EU_WEST_1_TEMP} ${EU_WEST_1_EMOJI} &nbsp; 
+            <kbd>ap-southeast-1</kbd> ${AP_SOUTHEAST_1_TEMP} ${AP_SOUTHEAST_1_EMOJI} <br>
           
-            <kbd>Paris</kbd> ${PARIS_TEMP} ${PARIS_EMOJI} &nbsp; 
-            <kbd>Berlin</kbd> ${BERLIN_TEMP} ${BERLIN_EMOJI} &nbsp; 
-            <kbd>Sydney</kbd> ${SYDNEY_TEMP} ${SYDNEY_EMOJI} &nbsp; 
-            <kbd>Toronto</kbd> ${TORONTO_TEMP} ${TORONTO_EMOJI} <br>
+            <kbd>ap-northeast-1</kbd> ${AP_NORTHEAST_1_TEMP} ${AP_NORTHEAST_1_EMOJI} &nbsp; 
+            <kbd>eu-central-1</kbd> ${EU_CENTRAL_1_TEMP} ${EU_CENTRAL_1_EMOJI} &nbsp; 
+            <kbd>sa-east-1</kbd> ${SA_EAST_1_TEMP} ${SA_EAST_1_EMOJI} &nbsp; 
+            <kbd>ca-central-1</kbd> ${CA_CENTRAL_1_TEMP} ${CA_CENTRAL_1_EMOJI} <br>
           
-            <kbd>San Francisco</kbd> ${SAN_FRANCISCO_TEMP} ${SAN_FRANCISCO_EMOJI} &nbsp; 
-            <kbd>Singapore</kbd> ${SINGAPORE_TEMP} ${SINGAPORE_EMOJI} &nbsp; 
-            <kbd>Dubai</kbd> ${DUBAI_TEMP} ${DUBAI_EMOJI} &nbsp; 
-            <kbd>Moscow</kbd> ${MOSCOW_TEMP} ${MOSCOW_EMOJI} <br>
+            <kbd>ap-south-1</kbd> ${AP_SOUTH_1_TEMP} ${AP_SOUTH_1_EMOJI} &nbsp; 
+            <kbd>ap-northeast-2</kbd> ${AP_NORTHEAST_2_TEMP} ${AP_NORTHEAST_2_EMOJI} &nbsp; 
+            <kbd>me-south-1</kbd> ${ME_SOUTH_1_TEMP} ${ME_SOUTH_1_EMOJI} &nbsp; 
+            <kbd>af-south-1</kbd> ${AF_SOUTH_1_TEMP} ${AF_SOUTH_1_EMOJI} <br>
           
-            <kbd>Mumbai</kbd> ${MUMBAI_TEMP} ${MUMBAI_EMOJI} &nbsp; 
-            <kbd>Seoul</kbd> ${SEOUL_TEMP} ${SEOUL_EMOJI} &nbsp; 
-            <kbd>Beijing</kbd> ${BEIJING_TEMP} ${BEIJING_EMOJI}
+            <kbd>eu-north-1</kbd> ${EU_NORTH_1_TEMP} ${EU_NORTH_1_EMOJI} &nbsp; 
+            <kbd>ap-east-1</kbd> ${AP_EAST_1_TEMP} ${AP_EAST_1_EMOJI} &nbsp; 
+            <kbd>eu-west-3</kbd> ${EU_WEST_3_TEMP} ${EU_WEST_3_EMOJI} &nbsp; 
+            <kbd>ap-south-2</kbd> ${AP_SOUTH_2_TEMP} ${AP_SOUTH_2_EMOJI}
           </div>
           ${END_MARKER}
           EOF
