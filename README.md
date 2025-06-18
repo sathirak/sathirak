@@ -17,25 +17,26 @@
 <h3 align="center">Check the weather today?</h3>
 <!-- start-daily-update -->
 <div align="center">
-  <!-- Updated on Wed Jun 18 01:49:39 UTC 2025 --><br><br>
+  <!-- Updated on Wed Jun 18 09:36:05 UTC 2025 --><br><br>
 
-  <kbd>Colombo</kbd> +26°C 🌧️ &nbsp; 
-  <kbd>London</kbd> +18°C ☀️ &nbsp; 
-  <kbd>New York</kbd> +19°C 🌡️ &nbsp; 
-  <kbd>Tokyo</kbd> +24°C 🌡️ <br>
+  <kbd>us-east-1</kbd> +75°F 🌡️ &nbsp; 
+  <kbd>us-west-1</kbd> +56°F 🌫️ &nbsp; 
+  <kbd>eu-west-1</kbd> +56°F ☁️ &nbsp; 
+  <kbd>ap-southeast-1</kbd> +86°F ☁️ <br>
 
-  <kbd>Paris</kbd> +19°C ☀️ &nbsp; 
-  <kbd>Berlin</kbd> +23°C ☀️ &nbsp; 
-  <kbd>Sydney</kbd> +9°C ☀️ &nbsp; 
-  <kbd>Toronto</kbd> +18°C 🌡️ <br>
+  <kbd>ap-northeast-1</kbd> +85°F ☁️ &nbsp; 
+  <kbd>eu-central-1</kbd> +58°F ☀️ &nbsp; 
+  <kbd>sa-east-1</kbd> +57°F ☀️ &nbsp; 
+  <kbd>ca-central-1</kbd> +65°F ☁️ <br>
 
-  <kbd>San Francisco</kbd> +19°C ☀️ &nbsp; 
-  <kbd>Singapore</kbd> +26°C ☁️ &nbsp; 
-  <kbd>Dubai</kbd> +34°C ☀️ &nbsp; 
-  <kbd>Moscow</kbd> +16°C 🌧️ <br>
+  <kbd>ap-south-1</kbd> +79°F 🌧️ &nbsp; 
+  <kbd>ap-northeast-2</kbd> +86°F ☀️ &nbsp; 
+  <kbd>me-south-1</kbd> +93°F ☀️ &nbsp; 
+  <kbd>af-south-1</kbd> +56°F ☁️ <br>
 
-  <kbd>Mumbai</kbd> +28°C 🌧️ &nbsp; 
-  <kbd>Seoul</kbd> +21°C 🌡️ &nbsp; 
-  <kbd>Beijing</kbd> +20°C ☁️
+  <kbd>eu-north-1</kbd> +61°F ☁️ &nbsp; 
+  <kbd>ap-east-1</kbd> +86°F 🌧️ &nbsp; 
+  <kbd>eu-west-3</kbd> +70°F ☀️ &nbsp; 
+  <kbd>ap-south-2</kbd> +83°F 🌧️
 </div>
 <!-- end-daily-update -->
