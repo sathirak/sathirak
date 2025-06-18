@@ -14,7 +14,7 @@
 <br/>
 <br/>
 
-<h3 align="center">Check the weather?</h3>
+<h3 align="center">Check the weather today?</h3>
 <!-- start-daily-update -->
 <div align="center">
   <!-- Updated on Wed Jun 18 01:49:39 UTC 2025 --><br><br>
