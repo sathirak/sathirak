@@ -3,7 +3,7 @@
 <div align="center">
   <br/><br/>
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=aws,azure,ts,go,docker,kubernetes,argocd,python&perline=4&theme=light)
+![My Skills](https://skills.syvixor.com/api/icons?i=loki,prometheus,grafana,amazonwebservices,azure,typescript,golang,docker,kubernetes,argocd,rust)
 
 <br/>
 
