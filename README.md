@@ -1,4 +1,4 @@
-<h4 align="center">I'm an engineer with a passion for developing robust and resilient systems.</h4>
+<h4 align="center">DevOps, System Engineer and jack of all trades</h4>
 
 <div align="center">
   <br/><br/>
