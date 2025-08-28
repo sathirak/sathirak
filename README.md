@@ -17,26 +17,26 @@
 <h3 align="center">Check the weather today?</h3>
 <!-- start-daily-update -->
 <div align="center">
-  <!-- Updated on Wed Aug 27 01:41:58 UTC 2025 --><br><br>
+  <!-- Updated on Thu Aug 28 01:41:43 UTC 2025 --><br><br>
 
-  <kbd>us-east-1</kbd> +76°F ☁️ &nbsp; 
-  <kbd>us-west-1</kbd> +66°F ☁️ &nbsp; 
-  <kbd>eu-west-1</kbd> +60°F ☁️ &nbsp; 
-  <kbd>ap-southeast-1</kbd> +83°F ☁️ <br>
+  <kbd>us-east-1</kbd> +24°C ☁️ &nbsp; 
+  <kbd>us-west-1</kbd> +19°C ☁️ &nbsp; 
+  <kbd>eu-west-1</kbd> +18°C ☁️ &nbsp; 
+  <kbd>ap-southeast-1</kbd> +27°C ☁️ <br>
 
-  <kbd>ap-northeast-1</kbd> +84°F ☁️ &nbsp; 
-  <kbd>eu-central-1</kbd> +77°F ☁️ &nbsp; 
-  <kbd>sa-east-1</kbd> +61°F ☁️ &nbsp; 
-  <kbd>ca-central-1</kbd> +63°F 🌡️ <br>
+  <kbd>ap-northeast-1</kbd> +27°C ☀️ &nbsp; 
+  <kbd>eu-central-1</kbd> +19°C 🌧️ &nbsp; 
+  <kbd>sa-east-1</kbd> +22°C 🌧️ &nbsp; 
+  <kbd>ca-central-1</kbd> +22°C ☁️ <br>
 
-  <kbd>ap-south-1</kbd> +81°F 🌡️ &nbsp; 
-  <kbd>ap-northeast-2</kbd> +74°F ☀️ &nbsp; 
-  <kbd>me-south-1</kbd> +97°F ☁️ &nbsp; 
-  <kbd>af-south-1</kbd> +54°F ☀️ <br>
+  <kbd>ap-south-1</kbd> +27°C 🌡️ &nbsp; 
+  <kbd>ap-northeast-2</kbd> +25°C ☁️ &nbsp; 
+  <kbd>me-south-1</kbd> +34°C ☀️ &nbsp; 
+  <kbd>af-south-1</kbd> +15°C ☀️ <br>
 
-  <kbd>eu-north-1</kbd> +54°F 🌡️ &nbsp; 
-  <kbd>ap-east-1</kbd> +87°F ☀️ &nbsp; 
-  <kbd>eu-west-3</kbd> +84°F ☀️ &nbsp; 
-  <kbd>ap-south-2</kbd> +83°F ☁️
+  <kbd>eu-north-1</kbd> +12°C ☁️ &nbsp; 
+  <kbd>ap-east-1</kbd> +28°C 🌧️ &nbsp; 
+  <kbd>eu-west-3</kbd> N/A 🌡️ &nbsp; 
+  <kbd>ap-south-2</kbd> +27°C ☁️
 </div>
 <!-- end-daily-update -->
