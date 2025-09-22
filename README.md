@@ -17,26 +17,26 @@
 <h3 align="center">Check the weather today?</h3>
 <!-- start-daily-update -->
 <div align="center">
-  <!-- Updated on Sun Sep 21 01:46:23 UTC 2025 --><br><br>
+  <!-- Updated on Mon Sep 22 01:46:32 UTC 2025 --><br><br>
 
-  <kbd>us-east-1</kbd> +24°C ☁️ &nbsp; 
-  <kbd>us-west-1</kbd> +18°C ☁️ &nbsp; 
-  <kbd>eu-west-1</kbd> +10°C ☁️ &nbsp; 
+  <kbd>us-east-1</kbd> +22°C 🌡️ &nbsp; 
+  <kbd>us-west-1</kbd> +19°C ☀️ &nbsp; 
+  <kbd>eu-west-1</kbd> +6°C ☀️ &nbsp; 
   <kbd>ap-southeast-1</kbd> +28°C ☁️ <br>
 
-  <kbd>ap-northeast-1</kbd> +27°C ☀️ &nbsp; 
-  <kbd>eu-central-1</kbd> +18°C 🌧️ &nbsp; 
-  <kbd>sa-east-1</kbd> +30°C ☀️ &nbsp; 
-  <kbd>ca-central-1</kbd> +17°C ☀️ <br>
+  <kbd>ap-northeast-1</kbd> +24°C 🌧️ &nbsp; 
+  <kbd>eu-central-1</kbd> +13°C 🌧️ &nbsp; 
+  <kbd>sa-east-1</kbd> +25°C 🌧️ &nbsp; 
+  <kbd>ca-central-1</kbd> +22°C ☀️ <br>
 
   <kbd>ap-south-1</kbd> +26°C 🌧️ &nbsp; 
-  <kbd>ap-northeast-2</kbd> +16°C ☀️ &nbsp; 
-  <kbd>me-south-1</kbd> +33°C ☀️ &nbsp; 
-  <kbd>af-south-1</kbd> +15°C ☀️ <br>
+  <kbd>ap-northeast-2</kbd> +19°C ☀️ &nbsp; 
+  <kbd>me-south-1</kbd> +32°C ☀️ &nbsp; 
+  <kbd>af-south-1</kbd> +13°C ☁️ <br>
 
-  <kbd>eu-north-1</kbd> +18°C ☁️ &nbsp; 
-  <kbd>ap-east-1</kbd> +27°C 🌧️ &nbsp; 
-  <kbd>eu-west-3</kbd> +20°C ☁️ &nbsp; 
-  <kbd>ap-south-2</kbd> +27°C ☁️
+  <kbd>eu-north-1</kbd> +11°C 🌧️ &nbsp; 
+  <kbd>ap-east-1</kbd> +27°C ☀️ &nbsp; 
+  <kbd>eu-west-3</kbd> +13°C ☀️ &nbsp; 
+  <kbd>ap-south-2</kbd> +26°C 🌧️
 </div>
 <!-- end-daily-update -->
