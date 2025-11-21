@@ -3,7 +3,7 @@
 <div align="center">
   <br/><br/>
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,neovim,nix,golang,kubernetes&perline=5&theme=light)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,neovim,debian,ubuntu,golang,kubernetes&perline=6&theme=light)
 
 <br/>
 
