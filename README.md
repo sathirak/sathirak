@@ -7,7 +7,7 @@
 
 <br/>
 
-[<kbd> <br> Checkout My Grotto 🍵! <br> </kbd>](https://sathirak.me/)
+ <!-- [<kbd> <br> Checkout My Grotto 🍵! <br> </kbd>](https://sathirak.me/) -->
   
 </div>
 
