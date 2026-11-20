@@ -1,4 +1,4 @@
-<h4 align="center">DevOps, System Engineer and jack of all trades</h4>
+<h4 align="center">DevOps, System Engineer, Researcher and jack of all trades</h4>
 
 <div align="center">
   <br/><br/>
